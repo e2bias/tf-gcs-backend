@@ -1,0 +1,4 @@
+project_id = "gcp-project-id"
+region = "us-central1"
+bucket_name = "tf-state"
+storage_class = "REGIONAL"
