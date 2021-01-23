@@ -36,3 +36,4 @@ override.tf.json
 credentials.json
 
 #MAC OS .DS_Store files
+.DS_Store
