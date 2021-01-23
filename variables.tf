@@ -3,18 +3,13 @@ variable "project_id" {
   description = "The GCP project ID"
 }
 
-variable "region" {
+variable "location" {
   type        = string
-  description = "The GCP region"
+  description = "The multi-region location name (ASIA|EU|US)"
 }
 
 variable "bucket_name" {
   type        = string
   description = "The name of the GCS bucket"
-}
-
-variable "storage_class" {
-  type        = string
-  description = "The GCP storage class"
 }
 
